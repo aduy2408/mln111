@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MLN111 Practice</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">MLN111 Practice</p>
+          <h1>Question Review</h1>
+        </div>
+        <button id="starButton" class="star-button" type="button">☆ Star</button>
+      </header>
+
+      <section class="controls" aria-label="Quiz controls">
+        <button id="prevButton" type="button">Previous</button>
+        <button id="nextButton" type="button">Next</button>
+        <label class="jump">
+          Jump to
+          <input id="jumpInput" type="number" min="1" value="1" />
+        </label>
+        <button id="jumpButton" type="button">Go</button>
+        <button id="shuffleButton" type="button">Shuffle</button>
+        <button id="reviewButton" type="button">Review starred</button>
+      </section>
+
+      <section class="question-panel">
+        <div class="meta">
+          <span id="positionText"></span>
+          <span id="starCountText"></span>
+        </div>
+        <h2 id="questionNumber"></h2>
+        <p id="questionText" class="question-text"></p>
+        <div id="options" class="options"></div>
+        <div id="answerBox" class="answer-box" hidden></div>
+      </section>
+    </main>
+
+    <script src="questions.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
