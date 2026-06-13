@@ -21,6 +21,7 @@ const elements = {
   shuffleButton: document.getElementById("shuffleButton"),
   starButton: document.getElementById("starButton"),
   starCountText: document.getElementById("starCountText"),
+  unshuffleButton: document.getElementById("unshuffleButton"),
 };
 
 function saveStars() {
@@ -183,6 +184,17 @@ function shuffleOrder() {
   goToPosition(0);
 }
 
+function unshuffleOrder() {
+  const currentQuestion = getCurrentQuestion();
+  order = questions.map((_, index) => index);
+  const visibleOrder = getVisibleOrder();
+  const restoredPosition = currentQuestion
+    ? visibleOrder.findIndex((index) => questions[index].number === currentQuestion.number)
+    : 0;
+
+  goToPosition(restoredPosition >= 0 ? restoredPosition : 0);
+}
+
 function toggleCurrentStar() {
   const question = getCurrentQuestion();
   if (!question) return;
@@ -208,6 +220,7 @@ elements.jumpInput.addEventListener("keydown", (event) => {
   if (event.key === "Enter") jumpToQuestionNumber();
 });
 elements.shuffleButton.addEventListener("click", shuffleOrder);
+elements.unshuffleButton.addEventListener("click", unshuffleOrder);
 elements.reviewButton.addEventListener("click", () => {
   reviewMode = !reviewMode;
   goToPosition(0);

@@ -88,7 +88,24 @@ h1 {
   flex-wrap: wrap;
   align-items: center;
   gap: 10px;
+  margin-bottom: 10px;
+}
+
+.shortcuts {
+  color: var(--muted);
+  font-size: 14px;
   margin-bottom: 16px;
+}
+
+kbd {
+  border: 1px solid var(--line);
+  border-bottom-width: 2px;
+  border-radius: 6px;
+  background: var(--panel);
+  color: var(--text);
+  font-family: inherit;
+  font-size: 13px;
+  padding: 2px 6px;
 }
 
 .jump {
