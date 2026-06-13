@@ -1,11 +1,13 @@
 const questions = window.QUESTIONS || [];
 const storageKey = "mln111-starred-questions";
+const answersKey = "mln111-answered-questions";
 
 let order = questions.map((_, index) => index);
 let currentPosition = 0;
 let selectedLetter = null;
 let reviewMode = false;
 let starred = new Set(JSON.parse(localStorage.getItem(storageKey) || "[]"));
+let savedAnswers = JSON.parse(localStorage.getItem(answersKey) || "{}");
 
 const elements = {
   answerBox: document.getElementById("answerBox"),
@@ -26,6 +28,14 @@ const elements = {
 
 function saveStars() {
   localStorage.setItem(storageKey, JSON.stringify([...starred]));
+}
+
+function saveAnswers() {
+  localStorage.setItem(answersKey, JSON.stringify(savedAnswers));
+}
+
+function getAnsweredCount() {
+  return Object.keys(savedAnswers).length;
 }
 
 function getVisibleOrder() {
@@ -60,9 +70,10 @@ function render() {
   currentPosition = Math.max(0, Math.min(currentPosition, visibleOrder.length - 1));
   const question = getCurrentQuestion();
   const isStarred = starred.has(question.number);
+  selectedLetter = selectedLetter || savedAnswers[question.number] || null;
 
   elements.positionText.textContent = `Showing ${currentPosition + 1} / ${visibleOrder.length}`;
-  elements.starCountText.textContent = `${starred.size} starred`;
+  elements.starCountText.textContent = `${getAnsweredCount()} / ${questions.length} answered | ${starred.size} starred`;
   elements.questionNumber.textContent = `Question ${question.number}`;
   elements.questionText.textContent = question.question;
   elements.jumpInput.max = questions.length;
@@ -106,6 +117,8 @@ function renderOptions(question) {
     button.append(letter, text);
     button.addEventListener("click", () => {
       selectedLetter = option.letter;
+      savedAnswers[question.number] = option.letter;
+      saveAnswers();
       render();
     });
     elements.options.append(button);
