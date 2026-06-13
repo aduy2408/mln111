@@ -292,7 +292,7 @@ window.QUESTIONS = [
   },
   {
     "number": 12,
-    "question": "Thuyết có thể biết còn gọi là gì?()",
+    "question": "Thuyết có thể biết còn gọi là gì?()\n(Hoặc còn gọi là khả tri\n->Không thể biết là bất khả tri luận)",
     "options": [
       {
         "letter": "A",
@@ -318,7 +318,7 @@ window.QUESTIONS = [
   },
   {
     "number": 13,
-    "question": "(Hoặc còn gọi là khả tri\n->Không thể biết là bất khả tri luận)\nNhân tố quyết định xu hướng phát triển của các hình thái kinh tế - xã hội là()",
+    "question": "Nhân tố quyết định xu hướng phát triển của các hình thái kinh tế - xã hội là()",
     "options": [
       {
         "letter": "A",
@@ -344,7 +344,7 @@ window.QUESTIONS = [
   },
   {
     "number": 14,
-    "question": "Khi quan hệ sản xuất được xem là phù hợp với tính chất và trình độ phát triển của lực lượng sản xuất?",
+    "question": "Khi quan hệ sản xuất được xem là phù hợp với tính chất và trình độ phát triển của lực lượng sản xuất?\n(Kiểu hỏi khác: Khi nào quan hệ sản xuất được xem là phù hợp với tính chất và trình độ phát triên của lực lượng sản xuất thì điều gì sẽ xày ra?)",
     "options": [
       {
         "letter": "A",
@@ -370,7 +370,7 @@ window.QUESTIONS = [
   },
   {
     "number": 15,
-    "question": "(Kiểu hỏi khác: Khi nào quan hệ sản xuất được xem là phù hợp với tính chất và trình độ phát triên của lực lượng sản xuất thì điều gì sẽ xày ra?)\nTheo cách phân chia các hình thức vận động của Ph.Ăngghen, hình thức vận động nào là thấp nhất, đơn giản nhất?()",
+    "question": "Theo cách phân chia các hình thức vận động của Ph.Ăngghen, hình thức vận động nào là thấp nhất, đơn giản nhất?()",
     "options": [
       {
         "letter": "A",
@@ -677,7 +677,7 @@ window.QUESTIONS = [
   },
   {
     "number": 27,
-    "question": "Trong quá trình nhận thức và hoạt động thực tiễn, chúng ta cần",
+    "question": "Trong quá trình nhận thức và hoạt động thực tiễn, chúng ta cần\n(Kiểu hỏi khác: Trong các đáp án dưới đây, đáp án nào là một yêu cầu trong quá trình nhận thức và thực tiễn?)",
     "options": [
       {
         "letter": "A",
@@ -703,7 +703,7 @@ window.QUESTIONS = [
   },
   {
     "number": 28,
-    "question": "(Kiểu hỏi khác: Trong các đáp án dưới đây, đáp án nào là một yêu cầu trong quá trình nhận thức và thực tiễn?)\nTheo quan điểm của triết học Mác - Lênin, \"tồn tại xã hội\" bao gồm:",
+    "question": "Theo quan điểm của triết học Mác - Lênin, \"tồn tại xã hội\" bao gồm:",
     "options": [
       {
         "letter": "A",
@@ -1634,7 +1634,7 @@ window.QUESTIONS = [
   },
   {
     "number": 64,
-    "question": "Tâm lý, tính cách tiểu nông của người Việt Nam truyền thống căn bản là do những yếu tố nào quyết định? (Chọn 3)",
+    "question": "Tâm lý, tính cách tiểu nông của người Việt Nam truyền thống căn bản là do những yếu tố nào quyết định? (Chọn 3)\n(Nếu chọn 1 thì chọn C)",
     "options": [
       {
         "letter": "A",
@@ -1660,7 +1660,7 @@ window.QUESTIONS = [
   },
   {
     "number": 65,
-    "question": "(Nếu chọn 1 thì chọn C)\nSản xuất vật chất có vai trò gì đối với xã hội?(073-356-8678)",
+    "question": "Sản xuất vật chất có vai trò gì đối với xã hội?(073-356-8678)",
     "options": [
       {
         "letter": "A",
@@ -1785,7 +1785,7 @@ window.QUESTIONS = [
   },
   {
     "number": 70,
-    "question": "Ở xã hội Việt Nam hiện nay()",
+    "question": "Ở xã hội Việt Nam hiện nay()\n(Vấn đề giai cấp ở Việt Nam hiện nay như thế nào?)",
     "options": [
       {
         "letter": "A",
@@ -1811,7 +1811,7 @@ window.QUESTIONS = [
   },
   {
     "number": 71,
-    "question": "(Vấn đề giai cấp ở Việt Nam hiện nay như thế nào?)\nTrong chủ nghĩa Mác - Lênin thì",
+    "question": "Trong chủ nghĩa Mác - Lênin thì",
     "options": [
       {
         "letter": "A",
@@ -1962,7 +1962,7 @@ window.QUESTIONS = [
   },
   {
     "number": 77,
-    "question": "Một sinh viên định nghĩa bệnh chủ quan duy ý chí bằng các biểu hiện đặc trưng sau đây. Hãy chỉ ra một biểu hiện không thuộc chủ quan duy ý chí.",
+    "question": "Một sinh viên định nghĩa bệnh chủ quan duy ý chí bằng các biểu hiện đặc trưng sau đây. Hãy chỉ ra một biểu hiện không thuộc chủ quan duy ý chí.\n(Cách hỏi khác: Đâu không phải là biểu hiện của chủ quan duy ý chí?)",
     "options": [
       {
         "letter": "A",
@@ -1988,7 +1988,7 @@ window.QUESTIONS = [
   },
   {
     "number": 78,
-    "question": "(Cách hỏi khác: Đâu không phải là biểu hiện của chủ quan duy ý chí?)\nTriết học ra đời từ đâu?",
+    "question": "Triết học ra đời từ đâu?",
     "options": [
       {
         "letter": "A",
@@ -2087,7 +2087,7 @@ window.QUESTIONS = [
   },
   {
     "number": 82,
-    "question": "Theo quan niệm duy vật biện chứng về lịch sử thì đỉnh cao của sự phát triển đấu tranh giai cấp là đấu tranh trong lĩnh vực nào?()",
+    "question": "Theo quan niệm duy vật biện chứng về lịch sử thì đỉnh cao của sự phát triển đấu tranh giai cấp là đấu tranh trong lĩnh vực nào?()\n(Kiểu hỏi khác: Theo quan niệm của chủ nghĩa duy vật lịch sử thì đỉnh cao của sự phát triển đấu tranh giai cấp là đấu tranh trong lĩnh vực nào?)",
     "options": [
       {
         "letter": "A",
@@ -2113,7 +2113,7 @@ window.QUESTIONS = [
   },
   {
     "number": 83,
-    "question": "(Kiểu hỏi khác: Theo quan niệm của chủ nghĩa duy vật lịch sử thì đỉnh cao của sự phát triển đấu tranh giai cấp là đấu tranh trong lĩnh vực nào?)\nQuan điểm tiến bộ và cách mạng nhất của chủ nghĩa Mác-Lênin về vấn đề con người là:()",
+    "question": "Quan điểm tiến bộ và cách mạng nhất của chủ nghĩa Mác-Lênin về vấn đề con người là:()",
     "options": [
       {
         "letter": "A",
@@ -2342,7 +2342,7 @@ window.QUESTIONS = [
   },
   {
     "number": 92,
-    "question": "Chủ nghĩa Mác-Lênin gồm ba bộ phận cấu thành đó là(073-356-8678)",
+    "question": "Chủ nghĩa Mác-Lênin gồm ba bộ phận cấu thành đó là(073-356-8678)\n(Cách hỏi khác: Chủ nghĩa Mác-Lênin có những bộ phần cấu thành nào?)",
     "options": [
       {
         "letter": "A",
@@ -2363,7 +2363,7 @@ window.QUESTIONS = [
   },
   {
     "number": 93,
-    "question": "(Cách hỏi khác: Chủ nghĩa Mác-Lênin có những bộ phần cấu thành nào?)\nHãy chỉ ra sai lầm của các nhà triết học thế kỷ XVII-XVIII trong quan niệm về vật chất (3 đáp án)",
+    "question": "Hãy chỉ ra sai lầm của các nhà triết học thế kỷ XVII-XVIII trong quan niệm về vật chất (3 đáp án)",
     "options": [
       {
         "letter": "A",
@@ -2519,7 +2519,7 @@ window.QUESTIONS = [
   },
   {
     "number": 99,
-    "question": "Triết học duy tâm khách quan và duy tâm chủ quan đều có điểm chung là()",
+    "question": "Triết học duy tâm khách quan và duy tâm chủ quan đều có điểm chung là()\n(Kiểu hỏi khác:\nGiá trị của triết học duy tâm là\nE. Tính tuyệt đối\nA. Đề cao lĩnh vực tinh thần của con người\nB. Đánh giá đúng lĩnh vực tinh thần của con người\nC. Đề cao tư duy của con người)",
     "options": [
       {
         "letter": "A",
@@ -2540,23 +2540,8 @@ window.QUESTIONS = [
   },
   {
     "number": 100,
-    "question": "(Kiểu hỏi khác:\nGiá trị của triết học duy tâm là\nE. Tính tuyệt đối",
+    "question": "Chân lý bao gồm các tính chất sau. (4 đáp án)()",
     "options": [
-      {
-        "letter": "A",
-        "text": "Đề cao lĩnh vực tinh thần của con người",
-        "isCorrect": false
-      },
-      {
-        "letter": "B",
-        "text": "Đánh giá đúng lĩnh vực tinh thần của con người",
-        "isCorrect": true
-      },
-      {
-        "letter": "C",
-        "text": "Đề cao tư duy của con người) Chân lý bao gồm các tính chất sau. (4 đáp án)()",
-        "isCorrect": true
-      },
       {
         "letter": "A",
         "text": "Tính phong phú, đa dạng",
@@ -2810,7 +2795,7 @@ window.QUESTIONS = [
   },
   {
     "number": 110,
-    "question": "Chọn phương án đúng theo quan điểm duy tâm về lịch sử.\nTrong mối quan hệ giữa tồn tại xã hội và ý thức xã hội.",
+    "question": "Chọn phương án đúng theo quan điểm duy tâm về lịch sử.\nTrong mối quan hệ giữa tồn tại xã hội và ý thức xã hội.\n(Kiểu hỏi khác: Quan điểm nào mang tính duy tâm khi bàn về mỗi quan hệ giữa tồn tại xã hội và ý thức xã hội?)",
     "options": [
       {
         "letter": "A",
@@ -2836,7 +2821,7 @@ window.QUESTIONS = [
   },
   {
     "number": 111,
-    "question": "(Kiểu hỏi khác: Quan điểm nào mang tính duy tâm khi bàn về mỗi quan hệ giữa tồn tại xã hội và ý thức xã hội?)\nHình thái ý thức xã hội nào phản ánh bản chất và tính quy luật của thế giới khách quan?()",
+    "question": "Hình thái ý thức xã hội nào phản ánh bản chất và tính quy luật của thế giới khách quan?()",
     "options": [
       {
         "letter": "A",
@@ -3429,7 +3414,7 @@ window.QUESTIONS = [
   },
   {
     "number": 134,
-    "question": "Chủ nghĩa duy vật lịch sử cho rằng, cuộc đấu tranh giữa những người lao động làm thuê, những người nô lệ bị áp bức về chính trị - xã hội và bị bóc lột về kinh tế chống lại bọn áp bức và bóc lột nó là thực chất",
+    "question": "Chủ nghĩa duy vật lịch sử cho rằng, cuộc đấu tranh giữa những người lao động làm thuê, những người nô lệ bị áp bức về chính trị - xã hội và bị bóc lột về kinh tế chống lại bọn áp bức và bóc lột nó là thực chất\n(Kiểu hỏi khác: Theo quan điểm của chủ nghĩa duy vật lịch sử, cuộc đấu tranh giữa những người lao động làm thuê, những người nô lệ bị áp búc vẽ chính trị - xã hội và bị bóc lột vẽ kinh tế chống lại bọn áp bức và bóc lột thực chất là gi?)",
     "options": [
       {
         "letter": "A",
@@ -3455,7 +3440,7 @@ window.QUESTIONS = [
   },
   {
     "number": 135,
-    "question": "(Kiểu hỏi khác: Theo quan điểm của chủ nghĩa duy vật lịch sử, cuộc đấu tranh giữa những người lao động làm thuê, những người nô lệ bị áp búc vẽ chính trị - xã hội và bị bóc lột vẽ kinh tế chống lại bọn áp bức và bóc lột thực chất là gi?)\nChủ nghĩa duy vật lịch sử cho rằng, tồn tại xã hội là khái niệm dùng để chỉ phương diện sinh hoạt vật chất và những điều kiện gì của xã hội?",
+    "question": "Chủ nghĩa duy vật lịch sử cho rằng, tồn tại xã hội là khái niệm dùng để chỉ phương diện sinh hoạt vật chất và những điều kiện gì của xã hội?",
     "options": [
       {
         "letter": "A",
@@ -3913,7 +3898,7 @@ window.QUESTIONS = [
   },
   {
     "number": 153,
-    "question": "Theo quan điểm duy tâm, lực lượng sáng tạo ra lịch sử là :",
+    "question": "Theo quan điểm duy tâm, lực lượng sáng tạo ra lịch sử là :\n(Cách hỏi khác: Theo quan điểm của chủ nghĩa duy tâm chủ quan, lực lượng sáng tạo ra lịch sử là lực lượng nào?)",
     "options": [
       {
         "letter": "A",
@@ -3939,7 +3924,7 @@ window.QUESTIONS = [
   },
   {
     "number": 154,
-    "question": "(Cách hỏi khác: Theo quan điểm của chủ nghĩa duy tâm chủ quan, lực lượng sáng tạo ra lịch sử là lực lượng nào?)\nChủ nghĩa nào mà sự tồn tại phát triển của nó thường gắn với lợi ích giai cấp và các lực lượng tiến bộ trong lịch sử?",
+    "question": "Chủ nghĩa nào mà sự tồn tại phát triển của nó thường gắn với lợi ích giai cấp và các lực lượng tiến bộ trong lịch sử?",
     "options": [
       {
         "letter": "A",
@@ -4241,7 +4226,7 @@ window.QUESTIONS = [
   },
   {
     "number": 166,
-    "question": "Chọn câu trả lời đúng, đầy đủ nhất theo quan niệm duy vật lịch sử: Cách mạng xã hội giữ vai trò là",
+    "question": "Chọn câu trả lời đúng, đầy đủ nhất theo quan niệm duy vật lịch sử: Cách mạng xã hội giữ vai trò là\n(Kiểu hỏi khác: Theo quan điểm của chủ nghĩa duy vật lịch sử, cách mạng xã hội giữa vai trò gi?)",
     "options": [
       {
         "letter": "A",
@@ -4267,7 +4252,7 @@ window.QUESTIONS = [
   },
   {
     "number": 167,
-    "question": "(Kiểu hỏi khác: Theo quan điểm của chủ nghĩa duy vật lịch sử, cách mạng xã hội giữa vai trò gi?)\nTheo quan điểm của chủ nghĩa duy vật lịch sử, nguồn gốc, động lực cơ bản nhất của mọi quá trình phát triển xã hội là gì?",
+    "question": "Theo quan điểm của chủ nghĩa duy vật lịch sử, nguồn gốc, động lực cơ bản nhất của mọi quá trình phát triển xã hội là gì?",
     "options": [
       {
         "letter": "A",
@@ -5787,7 +5772,7 @@ window.QUESTIONS = [
   },
   {
     "number": 227,
-    "question": "Phép biện chứng của triết học Hêghen là:",
+    "question": "Phép biện chứng của triết học Hêghen là:\n(Kiểu hỏi khác: Phép biện chứng của Hêghen là phép biện chứng gì?)",
     "options": [
       {
         "letter": "A",
@@ -5813,7 +5798,7 @@ window.QUESTIONS = [
   },
   {
     "number": 228,
-    "question": "(Kiểu hỏi khác: Phép biện chứng của Hêghen là phép biện chứng gì?)\nNhận định sau thuộc lập trường triết học nào? \"Nhân tố kinh tế là nhân tố quyết định duy nhất trong lịch sử\".",
+    "question": "Nhận định sau thuộc lập trường triết học nào? \"Nhân tố kinh tế là nhân tố quyết định duy nhất trong lịch sử\".",
     "options": [
       {
         "letter": "A",
@@ -6722,7 +6707,7 @@ window.QUESTIONS = [
   },
   {
     "number": 267,
-    "question": "Theo quan điểm của KTCT, trong tư liệu lao động bộ phận nào quyết định đến năng suất lao động?",
+    "question": "Theo quan điểm của KTCT, trong tư liệu lao động bộ phận nào quyết định đến năng suất lao động?\n(Cách hỏi khác: Tư liệu lao động gồm có:)",
     "options": [
       {
         "letter": "A",
@@ -6748,7 +6733,7 @@ window.QUESTIONS = [
   },
   {
     "number": 268,
-    "question": "(Cách hỏi khác: Tư liệu lao động gồm có:)\nQuan điểm nào sau đây phản ánh đầy đủ nội dung khái niệm tồn tại xã hội",
+    "question": "Quan điểm nào sau đây phản ánh đầy đủ nội dung khái niệm tồn tại xã hội",
     "options": [
       {
         "letter": "A",
@@ -7495,7 +7480,7 @@ window.QUESTIONS = [
   },
   {
     "number": 300,
-    "question": "Tác phẩm nào được xem là đánh dấu cho sự chín muồi về tư tưởng xã hội chủ nghĩa của C.Mác và Ăng-ghen",
+    "question": "Tác phẩm nào được xem là đánh dấu cho sự chín muồi về tư tưởng xã hội chủ nghĩa của C.Mác và Ăng-ghen\n(Kiểu hỏi khác: Tác phẩm nào sau đây được đánh giá là văn kiện đầu tiên có tính cương lĩnh của chủ nghĩa Mác, thể hiện sự chín muối về mặt thế giới quan mới của C. Mác và Ăngghen?)",
     "options": [
       {
         "letter": "A",
@@ -7516,7 +7501,7 @@ window.QUESTIONS = [
   },
   {
     "number": 301,
-    "question": "(Kiểu hỏi khác: Tác phẩm nào sau đây được đánh giá là văn kiện đầu tiên có tính cương lĩnh của chủ nghĩa Mác, thể hiện sự chín muối về mặt thế giới quan mới của C. Mác và Ăngghen?)\nTriết học duy vật biện chứng là sự thống nhất giữa",
+    "question": "Triết học duy vật biện chứng là sự thống nhất giữa",
     "options": [
       {
         "letter": "A",
@@ -7909,7 +7894,7 @@ window.QUESTIONS = [
   },
   {
     "number": 319,
-    "question": "Cặp phạm trù nguyên nhân, kết quả chỉ ra(073-356-8678)",
+    "question": "Cặp phạm trù nguyên nhân, kết quả chỉ ra(073-356-8678)\n(Kiểu hỏi khác: Tính chất phong phú, đa dạng trong quan hệ nhân quả thể hiện ở chỗ một kết quả có thể do:\nA. Một nguyên nhân sinh ra\nB. Nhiều nguyên nhân khác nhau sinh ra\nC. Các phương án trà lời đêu sai)",
     "options": [
       {
         "letter": "A",
@@ -7930,23 +7915,8 @@ window.QUESTIONS = [
   },
   {
     "number": 320,
-    "question": "(Kiểu hỏi khác: Tính chất phong phú, đa dạng trong quan hệ nhân quả thể hiện ở chỗ một kết quả có thể do:",
+    "question": "Theo Ăng-ghen, có thể chia vận động thành:",
     "options": [
-      {
-        "letter": "A",
-        "text": "Một nguyên nhân sinh ra",
-        "isCorrect": false
-      },
-      {
-        "letter": "B",
-        "text": "Nhiều nguyên nhân khác nhau sinh ra",
-        "isCorrect": true
-      },
-      {
-        "letter": "C",
-        "text": "Các phương án trà lời đêu sai) Theo Ăng-ghen, có thể chia vận động thành:",
-        "isCorrect": false
-      },
       {
         "letter": "A",
         "text": "Bốn hình thức vận động cơ bản",
@@ -9517,7 +9487,7 @@ window.QUESTIONS = [
   },
   {
     "number": 382,
-    "question": "Cách mạng xã hội được khái quát bởi",
+    "question": "Cách mạng xã hội được khái quát bởi\n(Kiểu hỏi khác: Đâu là một khái quát của cách mạng xã hội?)",
     "options": [
       {
         "letter": "A",
@@ -9543,7 +9513,7 @@ window.QUESTIONS = [
   },
   {
     "number": 383,
-    "question": "(Kiểu hỏi khác: Đâu là một khái quát của cách mạng xã hội?)\nĐịnh nghĩa đúng triết học Mác - Lênin là",
+    "question": "Định nghĩa đúng triết học Mác - Lênin là",
     "options": [
       {
         "letter": "A",
@@ -9595,7 +9565,7 @@ window.QUESTIONS = [
   },
   {
     "number": 385,
-    "question": "Theo Triết học Mác - Lênin cái bàn, cái ghế có phải vật chất không?",
+    "question": "Theo Triết học Mác - Lênin cái bàn, cái ghế có phải vật chất không?\n(Kiểu hỏi khác: Cái bàn, cái ghế có phải là vật chất với tư cách là một phạm trù triết học hay không?)",
     "options": [
       {
         "letter": "A",
@@ -9621,7 +9591,7 @@ window.QUESTIONS = [
   },
   {
     "number": 386,
-    "question": "(Kiểu hỏi khác: Cái bàn, cái ghế có phải là vật chất với tư cách là một phạm trù triết học hay không?)\nNhững sự vật, hiện tượng nếu có cùng nguyên nhân, trong những điều kiện giống nhau thì sẽ tạo nên kết quả như nhau. Điều này thể hiện tính chất gì trong mối liên hệ nhân quả?",
+    "question": "Những sự vật, hiện tượng nếu có cùng nguyên nhân, trong những điều kiện giống nhau thì sẽ tạo nên kết quả như nhau. Điều này thể hiện tính chất gì trong mối liên hệ nhân quả?",
     "options": [
       {
         "letter": "A",
@@ -9699,7 +9669,7 @@ window.QUESTIONS = [
   },
   {
     "number": 389,
-    "question": "Triết học duy vật biện chứng cho rằng:",
+    "question": "Triết học duy vật biện chứng cho rằng:\n(Kiểu hỏi khác: Đâu là một quan điểm của chủ nghĩa duy vật biện chứng?)",
     "options": [
       {
         "letter": "A",
@@ -9725,7 +9695,7 @@ window.QUESTIONS = [
   },
   {
     "number": 390,
-    "question": "(Kiểu hỏi khác: Đâu là một quan điểm của chủ nghĩa duy vật biện chứng?)\nAnh A có tri thức, năng lực, trình độ, kinh nghiệm và kỹ năng lao động. Vậy có thể gọi A là?",
+    "question": "Anh A có tri thức, năng lực, trình độ, kinh nghiệm và kỹ năng lao động. Vậy có thể gọi A là?",
     "options": [
       {
         "letter": "A",
@@ -9777,7 +9747,7 @@ window.QUESTIONS = [
   },
   {
     "number": 392,
-    "question": "Chọn câu trả lời đúng theo quan điểm duy vật lịch sử: Lực lượng cơ bản nhất trong quần chúng nhân dân là: ()",
+    "question": "Chọn câu trả lời đúng theo quan điểm duy vật lịch sử: Lực lượng cơ bản nhất trong quần chúng nhân dân là: ()\n(Cách hỏi khác: Theo quan điểm chủ nghĩa duy vật lịch sử, lực lượng cơ bản nhất trong quần chúng nhân dân là gì?)",
     "options": [
       {
         "letter": "A",
@@ -9803,7 +9773,7 @@ window.QUESTIONS = [
   },
   {
     "number": 393,
-    "question": "(Cách hỏi khác: Theo quan điểm chủ nghĩa duy vật lịch sử, lực lượng cơ bản nhất trong quần chúng nhân dân là gì?)\nChỉ có một thế giới duy nhất là thế giới vật chất là thể hiện tính chất gì của thế giới vật chất?",
+    "question": "Chỉ có một thế giới duy nhất là thế giới vật chất là thể hiện tính chất gì của thế giới vật chất?",
     "options": [
       {
         "letter": "A",
@@ -10339,7 +10309,7 @@ window.QUESTIONS = [
   },
   {
     "number": 414,
-    "question": "Ý thức xã hội có tính chất nào sau đây?",
+    "question": "Ý thức xã hội có tính chất nào sau đây?\n(Kiểu hỏi khác:\n-Tính chất kế thừa của ý thức xã hội làm cho nó có tính chất nào sau đây?\n-Trong mỗi quan hệ với tồn tại xã hội, ý thức xã hội có tính chất nào sau đây?)",
     "options": [
       {
         "letter": "A",
@@ -10365,7 +10335,7 @@ window.QUESTIONS = [
   },
   {
     "number": 415,
-    "question": "(Kiểu hỏi khác:\n-Tính chất kế thừa của ý thức xã hội làm cho nó có tính chất nào sau đây?\n-Trong mỗi quan hệ với tồn tại xã hội, ý thức xã hội có tính chất nào sau đây?)\nỞ Trung Quốc thời cổ đại có Triết học không?",
+    "question": "Ở Trung Quốc thời cổ đại có Triết học không?",
     "options": [
       {
         "letter": "A",
@@ -11468,7 +11438,7 @@ window.QUESTIONS = [
   },
   {
     "number": 458,
-    "question": "Theo quan điểm của chủ nghĩa duy vật thì những mối liên hệ tên tại ở mọi sự vật, hiện tượng của thế giới là mối liên hệ",
+    "question": "Theo quan điểm của chủ nghĩa duy vật thì những mối liên hệ tên tại ở mọi sự vật, hiện tượng của thế giới là mối liên hệ\n(Kiểu hỏi khác: Theo quan điểm của chủ nghĩa duy vật biện chứng thì những mối liên hệ tồn tại ở mọi sự vật, hiện tượng của thế giới là mối liên hệ như thế nào?)",
     "options": [
       {
         "letter": "A",
@@ -11494,7 +11464,7 @@ window.QUESTIONS = [
   },
   {
     "number": 459,
-    "question": "(Kiểu hỏi khác: Theo quan điểm của chủ nghĩa duy vật biện chứng thì những mối liên hệ tồn tại ở mọi sự vật, hiện tượng của thế giới là mối liên hệ như thế nào?)\nNguyên nhân và kết quả cái nào có trước?",
+    "question": "Nguyên nhân và kết quả cái nào có trước?",
     "options": [
       {
         "letter": "A",
@@ -11806,7 +11776,7 @@ window.QUESTIONS = [
   },
   {
     "number": 471,
-    "question": "Ngũ hành gồm những yếu tố nào?",
+    "question": "Ngũ hành gồm những yếu tố nào?\n(Kiểu hỏi khác: Trường phái triết học nào sau đây cho rằng vật chất bao gồm các yếu tố: kim, mộc, thủy, hòa, thố?)",
     "options": [
       {
         "letter": "A",
@@ -11832,7 +11802,7 @@ window.QUESTIONS = [
   },
   {
     "number": 472,
-    "question": "(Kiểu hỏi khác: Trường phái triết học nào sau đây cho rằng vật chất bao gồm các yếu tố: kim, mộc, thủy, hòa, thố?)\nTheo triết học Mác - Lênin, yếu tố nào đóng vai trò quyết định đối với tất cả các mặt của đời sống xã hội?",
+    "question": "Theo triết học Mác - Lênin, yếu tố nào đóng vai trò quyết định đối với tất cả các mặt của đời sống xã hội?",
     "options": [
       {
         "letter": "A",
@@ -12222,7 +12192,7 @@ window.QUESTIONS = [
   },
   {
     "number": 487,
-    "question": "Vấn đề cơ bản của triết học có hai mặt. Mặt thứ nhất phải trả lời cho hỏi cái nào có trước, cái nào có sau, cái nào quyết định cái nào. Đó là quan hệ giữa cái gì với cái gì?",
+    "question": "Vấn đề cơ bản của triết học có hai mặt. Mặt thứ nhất phải trả lời cho hỏi cái nào có trước, cái nào có sau, cái nào quyết định cái nào. Đó là quan hệ giữa cái gì với cái gì?\n(Kiểu hỏi khác: Mặt thứ nhất trong vấn đề cơ bản của triết học giải quyết mỗi quan hệ giữa các yếu tố nào sau đây?)",
     "options": [
       {
         "letter": "A",
@@ -12248,7 +12218,7 @@ window.QUESTIONS = [
   },
   {
     "number": 488,
-    "question": "(Kiểu hỏi khác: Mặt thứ nhất trong vấn đề cơ bản của triết học giải quyết mỗi quan hệ giữa các yếu tố nào sau đây?)\nTheo quan điểm của chủ nghĩa duy vật lịch sử, mỗi hình thái kinh tế - xã hội được cấu thành từ những nhân tố nào?",
+    "question": "Theo quan điểm của chủ nghĩa duy vật lịch sử, mỗi hình thái kinh tế - xã hội được cấu thành từ những nhân tố nào?",
     "options": [
       {
         "letter": "A",
@@ -12352,7 +12322,7 @@ window.QUESTIONS = [
   },
   {
     "number": 492,
-    "question": "Quan điểm nào thuộc chủ nghĩa duy tâm?",
+    "question": "Quan điểm nào thuộc chủ nghĩa duy tâm?\n(Kiểu hỏi khác: Triết học duy tâm cho rằng điều nào là đúng sau đây?\nA. Vật chất quyết định ý thức\nB. Ý thức quyết định vật chất\nC. Con người quyết định tất cà)",
     "options": [
       {
         "letter": "A",
@@ -12378,23 +12348,8 @@ window.QUESTIONS = [
   },
   {
     "number": 493,
-    "question": "(Kiểu hỏi khác: Triết học duy tâm cho rằng điều nào là đúng sau đây?",
+    "question": "Bộ phận nào của tư liệu lao động được coi là tiêu chí phản ánh đặc trưng phát triển của một thời đại kinh tế?",
     "options": [
-      {
-        "letter": "A",
-        "text": "Vật chất quyết định ý thức",
-        "isCorrect": true
-      },
-      {
-        "letter": "B",
-        "text": "Ý thức quyết định vật chất",
-        "isCorrect": false
-      },
-      {
-        "letter": "C",
-        "text": "Con người quyết định tất cà) Bộ phận nào của tư liệu lao động được coi là tiêu chí phản ánh đặc trưng phát triển của một thời đại kinh tế?",
-        "isCorrect": false
-      },
       {
         "letter": "A",
         "text": "Công cụ lao động",
@@ -14141,7 +14096,7 @@ window.QUESTIONS = [
   },
   {
     "number": 561,
-    "question": "Sự khác nhau căn bản của chủ nghĩa vật với chủ nghĩa duy tâm về sự thống nhất của thế giới là gì?()",
+    "question": "Sự khác nhau căn bản của chủ nghĩa vật với chủ nghĩa duy tâm về sự thống nhất của thế giới là gì?()\n(Giải thích: Thừa nhận tính vật chất của thế giới.)",
     "options": [
       {
         "letter": "A",
@@ -14167,7 +14122,7 @@ window.QUESTIONS = [
   },
   {
     "number": 562,
-    "question": "(Giải thích: Thừa nhận tính vật chất của thế giới.)\nKhi V.I. Lênin phát triển chủ nghĩa Mác trong giai đoạn để quốc chủ nghĩa, ông đã bổ sung lý luận nào cho phù hợp với bối cảnh xã hội mới? Chọn 2 đáp án.()",
+    "question": "Khi V.I. Lênin phát triển chủ nghĩa Mác trong giai đoạn để quốc chủ nghĩa, ông đã bổ sung lý luận nào cho phù hợp với bối cảnh xã hội mới? Chọn 2 đáp án.()",
     "options": [
       {
         "letter": "A",

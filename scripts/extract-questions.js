@@ -102,7 +102,7 @@ function groupQuestions(paragraphs) {
 }
 
 function parseQuestions(grouped) {
-  return grouped.map((question) => {
+  const questions = grouped.map((question) => {
     const questionLines = [];
     const options = [];
     let activeOption = null;
@@ -147,6 +147,70 @@ function parseQuestions(grouped) {
       options,
     };
   });
+
+  return moveLeadingNotesToPreviousQuestion(questions);
+}
+
+function splitLeadingParenthetical(text) {
+  if (!text.startsWith("(")) return null;
+
+  let depth = 0;
+  for (let index = 0; index < text.length; index += 1) {
+    const char = text[index];
+    if (char === "(") depth += 1;
+    if (char === ")") depth -= 1;
+
+    if (depth === 0) {
+      const note = text.slice(0, index + 1).trim();
+      const rest = text.slice(index + 1).replace(/^\s+/, "");
+      if (!note || !rest) return null;
+      return { note, rest };
+    }
+  }
+
+  return null;
+}
+
+function moveLeadingNotesToPreviousQuestion(questions) {
+  for (let index = 1; index < questions.length; index += 1) {
+    const split = splitLeadingParenthetical(questions[index].question);
+    if (!split) {
+      moveLeadingNoteSplitFromOption(questions, index);
+      continue;
+    }
+
+    questions[index - 1].question = `${questions[index - 1].question}\n${split.note}`;
+    questions[index].question = split.rest;
+  }
+
+  return questions;
+}
+
+function moveLeadingNoteSplitFromOption(questions, index) {
+  const question = questions[index];
+  if (!question.question.startsWith("(")) return;
+
+  const splitOptionIndex = question.options.findIndex((option) =>
+    /\)\s+\p{Lu}/u.test(option.text),
+  );
+  if (splitOptionIndex < 0) return;
+
+  const option = question.options[splitOptionIndex];
+  const closeIndex = option.text.search(/\)\s+\p{Lu}/u);
+  const noteOptionText = option.text.slice(0, closeIndex + 1).trim();
+  const rest = option.text.slice(closeIndex + 1).trim();
+  const noteOptions = question.options
+    .slice(0, splitOptionIndex)
+    .map((noteOption) => `${noteOption.letter}. ${noteOption.text}`);
+  const note = [
+    question.question,
+    ...noteOptions,
+    `${option.letter}. ${noteOptionText}`,
+  ].join("\n");
+
+  questions[index - 1].question = `${questions[index - 1].question}\n${note}`;
+  question.question = rest;
+  question.options = question.options.slice(splitOptionIndex + 1);
 }
 
 const questions = parseQuestions(groupQuestions(extractParagraphs(getDocumentXml())));
